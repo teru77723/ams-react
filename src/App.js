@@ -9,33 +9,6 @@ import { translations } from '@aws-amplify/ui';
 import Modal from "react-modal";
 import  QRCode  from "qrcode"
 
-const signUpConfig = {
-  hideAllDefaults: true,
-  signUpFields: [
-    {
-      label: 'UserName',
-      key: 'name',
-      required: true,
-      displayOrder: 1,
-      type: 'string',
-    },
-    {
-      label: 'Email',
-      key: 'email',
-      required: true,
-      displayOrder: 2,
-      type: 'string',
-    },
-    {
-      label: 'Password',
-      key: 'password',
-      required: true,
-      displayOrder: 3,
-      type: 'password',
-    },
-  ],
-}
-
 function App({ signOut, user }) {
     const [src, setSrc] = useState('');
     const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -136,7 +109,7 @@ const styles = {
     width: '70%',
     padding: '1% 0',
     margin: ' 0 auto',
-    marginTop: 20,
+    marginTop: '5%',
     border: 'solid orange',
     borderRadius: 5,
     position: 'relative'
@@ -168,7 +141,7 @@ const styles = {
     // height: '10%',
     padding: '5% 0',
     margin: ' 0 auto',
-    marginTop: 20,
+    marginTop: '5%',
     border: 'solid orange',
     borderRadius: 5,
     position: 'relative'
@@ -225,8 +198,8 @@ const styles = {
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
-    marginTop: 20,
-    marginBottom: 20,
+    marginTop: '5%',
+    marginBottom: '5%',
     paddingTop: 5,
     paddingBottom: 5,
     border: 'none',
@@ -248,9 +221,7 @@ const styles = {
 
 }
 
-export default withAuthenticator(App,{
-  signUpConfig: signUpConfig,
-});
+export default withAuthenticator(App);
 
 I18n.putVocabularies(translations);
 I18n.setLanguage('ja');
