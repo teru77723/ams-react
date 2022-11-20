@@ -94,7 +94,7 @@ function App({ signOut, user }) {
 }
 
 const styles = {
-  container: { flex: 1 },
+  container: { flex: 1, height: '100%' },
   hfContainer: { 
     width: '100%', 
     margin: '0 auto', 
@@ -105,7 +105,7 @@ const styles = {
     backgroundColor: '#FCBF4C' 
   },
   logo: {
-    width: '10%',
+    width: '15%',
     marginLeft: '5%',
     borderRadius: 50
   },
@@ -115,8 +115,8 @@ const styles = {
     backgroundColor: 'white',
     borderRadius: 5,
     position: 'absolute',
-    top: '1.7%',
-    left: '25%'
+    top: '1%',
+    left: '30%'
   },
   userTxt: {
     fontSize: 10,
