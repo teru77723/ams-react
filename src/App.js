@@ -178,7 +178,7 @@ const styles = {
     height: 25,
     marginLeft: 'auto',
     marginRight: 'auto',
-    backgroundColor: '#FCC765',
+    backgroundColor: '#FCBF4C',
     borderRadius: 40
   },
   LessonsTxt: {
@@ -196,11 +196,11 @@ const styles = {
   marginRight: 'auto',
   borderRadius: 5,
   border: 'solid',
-  borderColor: '#fec897'  
+  borderColor: '#FCBF4C'  
   },
   LListBox: {
     backgroundColor: 'white',
-    borderBottom: 'solid #fec897',
+    borderBottom: 'solid #FCBF4C',
     marginBottom: 0,
     display: 'flex',
     justifyContent: 'space-between'
