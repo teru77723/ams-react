@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "ams_react",
+			"path": ".."
+		},
+		{
+			"name": "images",
+			"path": "../../AmsProject/images"
+		}
+	],
+	"settings": {}
+}

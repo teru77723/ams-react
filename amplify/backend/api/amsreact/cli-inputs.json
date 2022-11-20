@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "amsreact",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-11-25T07:00:46.774Z",
+      "keyDescription": "da2-hpc2utqn4rdqnce336op6pgaeq"
+    }
+  }
+}

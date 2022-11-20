@@ -1,0 +1,56 @@
+{
+  "api": {
+    "amsreact": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7,
+              "apiKeyExpirationDate": "2022-11-25T07:00:46.774Z",
+              "description": "da2-hpc2utqn4rdqnce336op6pgaeq"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  },
+  "auth": {
+    "amsreacte54ad285": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      }
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "service": "S3AndCloudFront",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
