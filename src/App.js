@@ -74,7 +74,7 @@ const styles = {
     display: 'flex', 
     flexDirection: 'column', 
     justifyContent: 'center', 
-    padding: 5, 
+    paddingBottom: 5, 
     backgroundColor: '#FCBF4C'
   },
   logo: {
@@ -82,6 +82,7 @@ const styles = {
     marginLeft: '5%',
     borderRadius: 50,
     marginTop: 10
+
   },
   nameBox: {
     width: '45%',
@@ -98,23 +99,23 @@ const styles = {
     
   },
   userTxt: {
-    fontSize: 10,
+    fontSize: 16,
     textAlign: 'center',
     marginTop: 'auto',
     marginBottom: 'auto',
   },
   loBtn: {
     width: '12%',
-    height: '6%',
+    height: '8%',
     border: 'none',
     borderRadius: 5,
-    fontSize: 8,
+    fontSize: 16,
     position: 'absolute',
     right: '4%',
     top: '4%'
   },
   contactBox: {
-    width: '70%',
+    width: '50%',
     padding: '3% 0',
     margin: ' 0 auto',
     marginTop: '7%',
@@ -127,7 +128,7 @@ const styles = {
     marginBottom: 20
   },
   btnBox: {
-    width: '35%',
+    width: '30%',
     paddingTop: '0.5%',
     paddingBottom: '0.5%',
     border: 'solid',
@@ -136,17 +137,17 @@ const styles = {
     position: 'absolute',
     bottom: 5,
     right: 5,
-    fontSize: 12,
+    fontSize: 18,
     color: 'white',
   },
   btnTxt: {
-    fontSize: 12,
+    fontSize: 16,
     color: 'white',
     position: 'absolute',
     bottom: 0
   },
   Box: {
-    width: '70%',
+    width: '50%',
     // height: '10%',
     padding: '7% 0',
     margin: ' 0 auto',
@@ -156,7 +157,7 @@ const styles = {
     position: 'relative'
   },
   LessonsBox: {
-    width: '60%',
+    width: '40%',
     height: '5%',
     marginLeft: 'auto',
     marginRight: 'auto',
@@ -219,7 +220,7 @@ const styles = {
   },
   QRcode: {
     display: 'block',
-    padding: 10,
+    padding: 20,
     border: 'solid',
     borderRadius: 2,
     borderColor: '#FCBF4C',
