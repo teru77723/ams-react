@@ -67,7 +67,7 @@ function App({ signOut, user }) {
 }
 
 const styles = {
-  container: { flex: 1, height: '100%' },
+  container: { flex: 1, height: '100vh' },
   hfContainer: { 
     width: '100%', 
     margin: '0 auto', 
@@ -84,12 +84,13 @@ const styles = {
   },
   nameBox: {
     width: '45%',
-    height: '7%',
+    height: '3%',
     backgroundColor: 'white',
     borderRadius: 5,
-    position: 'absolute',
-    top: '1%',
-    left: '30%'
+    marginBottom: 'auto',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    marginTop: 'auto',
   },
   userTxt: {
     fontSize: 10,
@@ -109,7 +110,7 @@ const styles = {
     width: '70%',
     padding: '1% 0',
     margin: ' 0 auto',
-    marginTop: '5%',
+    marginTop: '7%',
     border: 'solid orange',
     borderRadius: 5,
     position: 'relative'
@@ -120,7 +121,7 @@ const styles = {
   },
   btnBox: {
     width: '35%',
-    height: 20,
+    height: '7%',
     border: 'solid',
     borderRadius: 7,
     backgroundColor: 'rgba(255,165,0,0.7)',
@@ -139,7 +140,7 @@ const styles = {
   Box: {
     width: '70%',
     // height: '10%',
-    padding: '5% 0',
+    padding: '7% 0',
     margin: ' 0 auto',
     marginTop: '5%',
     border: 'solid orange',
@@ -148,7 +149,7 @@ const styles = {
   },
   LessonsBox: {
     width: '60%',
-    height: 25,
+    height: '5%',
     marginLeft: 'auto',
     marginRight: 'auto',
     backgroundColor: '#FCBF4C',
@@ -163,8 +164,8 @@ const styles = {
   },
   LessonsList: {
   width: '85%',
-  marginTop: 20,
-  marginBottom: 30,
+  marginTop: '5%',
+  marginBottom: '5%',
   marginLeft: 'auto',
   marginRight: 'auto',
   borderRadius: 5,
