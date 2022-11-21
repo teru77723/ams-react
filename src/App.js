@@ -75,27 +75,33 @@ const styles = {
     flexDirection: 'column', 
     justifyContent: 'center', 
     padding: 5, 
-    backgroundColor: '#FCBF4C' 
+    backgroundColor: '#FCBF4C'
   },
   logo: {
     width: '15%',
     marginLeft: '5%',
-    borderRadius: 50
+    borderRadius: 50,
+    marginTop: 10
   },
   nameBox: {
     width: '45%',
-    height: '3%',
+    // height: '5%',
+    paddingTop: '2%',
+    paddingBottom: '2%',
     backgroundColor: 'white',
     borderRadius: 5,
-    marginBottom: 'auto',
     marginLeft: 'auto',
     marginRight: 'auto',
-    marginTop: 'auto',
+    position: 'absolute',
+    top: '3%',
+    left: '30%'
+    
   },
   userTxt: {
     fontSize: 10,
     textAlign: 'center',
-    marginTop: 7,
+    marginTop: 'auto',
+    marginBottom: 'auto',
   },
   loBtn: {
     width: '12%',
@@ -104,11 +110,12 @@ const styles = {
     borderRadius: 5,
     fontSize: 8,
     position: 'absolute',
-    right: '4%'
+    right: '4%',
+    top: '4%'
   },
   contactBox: {
     width: '70%',
-    padding: '1% 0',
+    padding: '3% 0',
     margin: ' 0 auto',
     marginTop: '7%',
     border: 'solid orange',
@@ -121,7 +128,8 @@ const styles = {
   },
   btnBox: {
     width: '35%',
-    height: '7%',
+    paddingTop: '0.5%',
+    paddingBottom: '0.5%',
     border: 'solid',
     borderRadius: 7,
     backgroundColor: 'rgba(255,165,0,0.7)',
