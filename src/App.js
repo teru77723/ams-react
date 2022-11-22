@@ -118,7 +118,8 @@ const styles = {
     width: '50%',
     padding: '3% 0',
     margin: ' 0 auto',
-    marginTop: '7%',
+    marginTop: '2%',
+    marginBottom: '2%',
     border: 'solid orange',
     borderRadius: 5,
     position: 'relative'
@@ -206,7 +207,7 @@ const styles = {
   },
   styleQR: {
     width: '20%',
-    height: '10%',
+    height: '15%',
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
@@ -220,7 +221,7 @@ const styles = {
   },
   QRcode: {
     width: '30%',
-    height: '30%',
+    height: '50%',
     display: 'block',
     padding: 20,
     border: 'solid',
