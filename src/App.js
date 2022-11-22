@@ -99,7 +99,7 @@ const styles = {
     
   },
   userTxt: {
-    fontSize: 16,
+    fontSize: 20,
     textAlign: 'center',
     marginTop: 'auto',
     marginBottom: 'auto',
@@ -109,7 +109,7 @@ const styles = {
     height: '8%',
     border: 'none',
     borderRadius: 5,
-    fontSize: 16,
+    fontSize: 20,
     position: 'absolute',
     right: '4%',
     top: '4%'
@@ -137,11 +137,11 @@ const styles = {
     position: 'absolute',
     bottom: 5,
     right: 5,
-    fontSize: 18,
+    fontSize: 25,
     color: 'white',
   },
   btnTxt: {
-    fontSize: 16,
+    fontSize: 25,
     color: 'white',
     position: 'absolute',
     bottom: 0
@@ -165,7 +165,7 @@ const styles = {
     borderRadius: 40
   },
   LessonsTxt: {
-    fontSize: 16,
+    fontSize: 20,
     color: 'white',
     marginTop: 'auto',
     textAlign: 'center',
@@ -197,15 +197,16 @@ const styles = {
   },
 
   LeftTxt: {
-    fontSize: 14,
+    fontSize: 20,
     marginLeft: 5
   },
   RightTxt: {
-    fontSize: 14,
+    fontSize: 20,
     marginRight: 5
   },
   styleQR: {
-    width: '30%',
+    width: '20%',
+    height: '10%',
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
@@ -215,9 +216,11 @@ const styles = {
     borderRadius: 50,
     color: 'white',
     backgroundColor: '#FCBF4C',
-    fontSize: 25 
+    fontSize: 25
   },
   QRcode: {
+    width: '30%',
+    height: '30%',
     display: 'block',
     padding: 20,
     border: 'solid',
