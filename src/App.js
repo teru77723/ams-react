@@ -151,14 +151,14 @@ const styles = {
     // height: '10%',
     padding: '7% 0',
     margin: ' 0 auto',
-    marginTop: '5%',
+    marginTop: '1%',
     border: 'solid orange',
     borderRadius: 5,
     position: 'relative'
   },
   LessonsBox: {
     width: '40%',
-    height: '5%',
+    height: '7%',
     marginLeft: 'auto',
     marginRight: 'auto',
     backgroundColor: '#FCBF4C',
@@ -205,18 +205,17 @@ const styles = {
     marginRight: 5
   },
   styleQR: {
+    width: '30%',
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
     marginTop: '5%',
     marginBottom: '5%',
-    paddingTop: 5,
-    paddingBottom: 5,
     border: 'none',
     borderRadius: 50,
     color: 'white',
     backgroundColor: '#FCBF4C',
-    fontSize: 14 
+    fontSize: 25 
   },
   QRcode: {
     display: 'block',
